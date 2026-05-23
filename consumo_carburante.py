@@ -28,11 +28,11 @@ def evaluate_model(name, model, X_train, y_train, X_test, y_test):
 # --- 1. Connessione al Database ---
 
 conn = psycopg2.connect(
-    dbname="provadin",
-    user="postgres",
-    password="Terzigno",
-    host="localhost",
-    port="5432"
+    dbname="DB_NAME",
+    user="DB_USER",
+    password="DB_PASS",
+    host="DB_HOST",
+    port="DB_PORT"
 )
 
 query = """

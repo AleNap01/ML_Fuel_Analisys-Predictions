@@ -133,7 +133,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Iinizilizazione dello stato della sessione
+# Inizializzazione dello stato della sessione
 defaults = {
     'predictor': None, 'data': None, 'trained': False, 'results': None,
     'config': None, 'X_test': None, 'y_test': None, 'feature_importance': None

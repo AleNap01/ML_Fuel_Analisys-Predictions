@@ -82,7 +82,7 @@ feature_cols = [
 ]
 target_col = 'fuel_delta_smooth'
 
-df['veicle_mileage'] = np.sqrt(df['vehicle_mileage']) * 0.01
+df['vehicle_mileage'] = np.sqrt(df['vehicle_mileage']) * 0.01
 
 df_model = df[feature_cols + [target_col]].dropna()
 X = df_model[feature_cols]
